@@ -1,14 +1,14 @@
 {
-  "app_version": "0.6.6",
+  "app_version": "0.6.7",
   "release_date": "2026-06-07",
   "release_notes": [
-    "Added hidden shared folder config sync for user/company access updates.",
-    "Added Sync Latest Config and Publish Config without requiring a GitHub token.",
-    "Added SuperAdmin shared config setup and read/write diagnostics."
+    "Added Auto Configure for Google Drive Desktop shared config setup.",
+    "Automatically creates OrderConsolidator-Sync and saves the shared config path.",
+    "Added simple Shared Config Status for Ready, Not Configured, Folder Missing, and Read/Write Failed."
   ],
-  "app_download_url": "https://github.com/trycoxyl/warehouse-order-consolidator-releases/releases/download/v0.6.6/OrderConsolidator-v0.6.6.zip",
-  "app_sha256": "2a5e03fc36cf15661c8cc639793621de284ea04bcf00e216a95a9d870836e48f",
-  "app_download_size": 114306558,
+  "app_download_url": "https://github.com/trycoxyl/warehouse-order-consolidator-releases/releases/download/v0.6.7/OrderConsolidator-v0.6.7.zip",
+  "app_sha256": "7913c0ff62f78b2f1cabf27c768a4347ccbcf7fd0a6199514fa796482a586338",
+  "app_download_size": 114313996,
   "mandatory": false,
   "minimum_supported_version": "0.6.0",
   "config_version": "2026.06.07.202606",
