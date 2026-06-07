@@ -1,16 +1,17 @@
 {
-  "version": "0.6.1",
+  "version": "0.6.2",
   "release_date": "2026-06-07",
   "release_notes": [
-    "Manual one-click updater from Settings.",
-    "Clear Update Diagnostics for URL, GitHub, JSON, download, checksum, and updater helper issues.",
-    "Visible Current Update URL and Test Update Connection in Settings.",
-    "Packaged updater handoff now carries the required runtime files.",
-    "Installs through a separate updater helper without touching the selected Data Folder."
+    "Offline local login with First Admin Setup.",
+    "Admin and Warehouse User roles for shared warehouse workstations.",
+    "Admin-only User Management for adding users, resetting passwords, and enabling or disabling accounts.",
+    "Audit Trail viewer and CSV export for login/logout, scans, master data, allocation, output, and Data Folder changes.",
+    "Local password hashing with per-user salts; plain-text passwords are never stored.",
+    "Manual updater remains full-folder ZIP based and preserves the selected Data Folder."
   ],
-  "download_url": "https://github.com/trycoxyl/warehouse-order-consolidator-releases/releases/download/v0.6.1/OrderConsolidator-v0.6.1.zip",
-  "sha256": "abe2b60f835901bd23591d794fe6729c1d19c27f1b22e3728effc2537711668a",
-  "download_size": 114236635,
+  "download_url": "https://github.com/trycoxyl/warehouse-order-consolidator-releases/releases/download/v0.6.2/OrderConsolidator-v0.6.2.zip",
+  "sha256": "1214e2b7d069cdd635195486995afd19004cc87150e55fc1727ad7ca5820fef6",
+  "download_size": 114275461,
   "mandatory": false,
   "minimum_supported_version": "0.5.0"
 }
