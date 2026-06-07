@@ -1,7 +1,13 @@
 {
-  "config_version": "2026.06.07.202606",
-  "generated_at": "2026-06-07T20:26:06",
-  "companies": [],
+  "config_version": "2026.06.08.000134",
+  "generated_at": "2026-06-08T00:01:34",
+  "companies": [
+    {
+      "company_code": "WC001",
+      "company_name": "Aafiyat",
+      "active": true
+    }
+  ],
   "roles": [
     {
       "role": "admin",
@@ -33,7 +39,7 @@
     {
       "role": "admin",
       "permission": "manage_companies",
-      "enabled": true
+      "enabled": false
     },
     {
       "role": "admin",
@@ -86,7 +92,7 @@
       "username": "Admin",
       "display_name": "Admin",
       "role": "admin",
-      "active": true,
+      "active": false,
       "password_hash": "5e796db2e3c0ea3270a5529f639c7e250307d8189c57104d3ce340db3e929852",
       "password_salt": "93a9f53e6f4e30a91c1906f5bbf2cb0b"
     },
@@ -94,10 +100,291 @@
       "username": "TRO",
       "display_name": "System Tester",
       "role": "user",
-      "active": true,
+      "active": false,
       "password_hash": "b98b5fad0aa7f05e4a2e20ab4a919c72dafd93db68490b39de0f47d5f1f5e7fd",
       "password_salt": "1a5266ef95d3ac2a704e6cafdbc35b72"
+    },
+    {
+      "username": "Superadmin",
+      "display_name": "Solihin Razali",
+      "role": "superadmin",
+      "active": true,
+      "password_hash": "bbb1e542b754a4b8e0dac25a10e90cdd18448e67e16f75fcfdf7de42c7ba2de2",
+      "password_salt": "3d2fd52ae8802007616a7089809d8a10"
+    },
+    {
+      "username": "Admin 01",
+      "display_name": "Dini Amalina",
+      "role": "admin",
+      "active": true,
+      "password_hash": "bf6f4fad103ac5f5cac3950d4be3779382cbb8fccb05b84e088861a740d4daee",
+      "password_salt": "d8f2bd4be8b587cef095bdc75c8f514b"
+    },
+    {
+      "username": "W001",
+      "display_name": "Faqihah Hazri",
+      "role": "user",
+      "active": true,
+      "password_hash": "89dc796d63923c031fbf4b9cd71ec901b9a0f937848ab6f057e01155f1d508f1",
+      "password_salt": "6fa78bb0c548de645c3f4408cb348b8d"
+    },
+    {
+      "username": "W002",
+      "display_name": "Azrin Isnoor",
+      "role": "user",
+      "active": true,
+      "password_hash": "f2c83e2b96d6c1c91122a406c319dcb2cf658a45c68987f5711f5aa8ed7a7f21",
+      "password_salt": "5019b2f31ae3faa11759c31c8baa0f7f"
     }
   ],
-  "user_company_assignments": []
+  "user_company_assignments": [
+    {
+      "username": "Admin 01",
+      "company_code": "WC001",
+      "active": true
+    },
+    {
+      "username": "W001",
+      "company_code": "WC001",
+      "active": true
+    },
+    {
+      "username": "W002",
+      "company_code": "WC001",
+      "active": true
+    }
+  ],
+  "audit_events": [
+    {
+      "occurred_at": "2026-06-07 12:52:13",
+      "username": "TRO",
+      "user_role": "user",
+      "company_code": "",
+      "action": "login",
+      "entity_type": "auth",
+      "entity_id": "TRO",
+      "details": "User logged in."
+    },
+    {
+      "occurred_at": "2026-06-07 12:52:22",
+      "username": "TRO",
+      "user_role": "user",
+      "company_code": "",
+      "action": "logout",
+      "entity_type": "auth",
+      "entity_id": "TRO",
+      "details": "User logged out."
+    },
+    {
+      "occurred_at": "2026-06-07 12:52:32",
+      "username": "Admin",
+      "user_role": "admin",
+      "company_code": "",
+      "action": "login",
+      "entity_type": "auth",
+      "entity_id": "Admin",
+      "details": "User logged in."
+    },
+    {
+      "occurred_at": "2026-06-07 13:05:07",
+      "username": "Admin",
+      "user_role": "admin",
+      "company_code": "",
+      "action": "create_user",
+      "entity_type": "user",
+      "entity_id": "3",
+      "details": "Created user Superadmin with role superadmin."
+    },
+    {
+      "occurred_at": "2026-06-07 13:15:11",
+      "username": "Admin",
+      "user_role": "admin",
+      "company_code": "",
+      "action": "create_company",
+      "entity_type": "company",
+      "entity_id": "1",
+      "details": "Created company WC001."
+    },
+    {
+      "occurred_at": "2026-06-07 13:15:21",
+      "username": "Admin",
+      "user_role": "admin",
+      "company_code": "",
+      "action": "logout",
+      "entity_type": "auth",
+      "entity_id": "Admin",
+      "details": "User logged out."
+    },
+    {
+      "occurred_at": "2026-06-07 13:15:38",
+      "username": "Superadmin",
+      "user_role": "superadmin",
+      "company_code": "",
+      "action": "login",
+      "entity_type": "auth",
+      "entity_id": "Superadmin",
+      "details": "User logged in."
+    },
+    {
+      "occurred_at": "2026-06-07 13:19:15",
+      "username": "Superadmin",
+      "user_role": "superadmin",
+      "company_code": "",
+      "action": "disable_user",
+      "entity_type": "user",
+      "entity_id": "1",
+      "details": "Disabled user Admin."
+    },
+    {
+      "occurred_at": "2026-06-07 13:21:19",
+      "username": "Superadmin",
+      "user_role": "superadmin",
+      "company_code": "",
+      "action": "create_user",
+      "entity_type": "user",
+      "entity_id": "4",
+      "details": "Created user Admin 01 with role admin."
+    },
+    {
+      "occurred_at": "2026-06-07 13:21:33",
+      "username": "Superadmin",
+      "user_role": "superadmin",
+      "company_code": "",
+      "action": "disable_user",
+      "entity_type": "user",
+      "entity_id": "2",
+      "details": "Disabled user TRO."
+    },
+    {
+      "occurred_at": "2026-06-07 13:24:36",
+      "username": "Superadmin",
+      "user_role": "superadmin",
+      "company_code": "",
+      "action": "create_user",
+      "entity_type": "user",
+      "entity_id": "5",
+      "details": "Created user W001 with role user."
+    },
+    {
+      "occurred_at": "2026-06-07 13:26:35",
+      "username": "Superadmin",
+      "user_role": "superadmin",
+      "company_code": "",
+      "action": "create_user",
+      "entity_type": "user",
+      "entity_id": "6",
+      "details": "Created user W002 with role user."
+    },
+    {
+      "occurred_at": "2026-06-07 13:27:16",
+      "username": "Superadmin",
+      "user_role": "superadmin",
+      "company_code": "",
+      "action": "sync_global_config",
+      "entity_type": "config",
+      "entity_id": "2026.06.07.202606",
+      "details": "Global config already current."
+    },
+    {
+      "occurred_at": "2026-06-07 13:28:36",
+      "username": "Superadmin",
+      "user_role": "superadmin",
+      "company_code": "",
+      "action": "logout",
+      "entity_type": "auth",
+      "entity_id": "Superadmin",
+      "details": "User logged out."
+    },
+    {
+      "occurred_at": "2026-06-07 13:28:50",
+      "username": "W001",
+      "user_role": "user",
+      "company_code": "WC001",
+      "action": "login",
+      "entity_type": "auth",
+      "entity_id": "W001",
+      "details": "User logged in."
+    },
+    {
+      "occurred_at": "2026-06-07 13:29:00",
+      "username": "W001",
+      "user_role": "user",
+      "company_code": "WC001",
+      "action": "logout",
+      "entity_type": "auth",
+      "entity_id": "W001",
+      "details": "User logged out."
+    },
+    {
+      "occurred_at": "2026-06-07 13:29:17",
+      "username": "Admin 01",
+      "user_role": "admin",
+      "company_code": "WC001",
+      "action": "login",
+      "entity_type": "auth",
+      "entity_id": "Admin 01",
+      "details": "User logged in."
+    },
+    {
+      "occurred_at": "2026-06-07 14:19:04",
+      "username": "Superadmin",
+      "user_role": "superadmin",
+      "company_code": "",
+      "action": "login",
+      "entity_type": "auth",
+      "entity_id": "Superadmin",
+      "details": "User logged in."
+    },
+    {
+      "occurred_at": "2026-06-07 15:25:52",
+      "username": "Admin 01",
+      "user_role": "admin",
+      "company_code": "WC001",
+      "action": "login",
+      "entity_type": "auth",
+      "entity_id": "Admin 01",
+      "details": "User logged in."
+    },
+    {
+      "occurred_at": "2026-06-07 15:26:15",
+      "username": "Admin 01",
+      "user_role": "admin",
+      "company_code": "WC001",
+      "action": "logout",
+      "entity_type": "auth",
+      "entity_id": "Admin 01",
+      "details": "User logged out."
+    },
+    {
+      "occurred_at": "2026-06-07 15:26:28",
+      "username": "Superadmin",
+      "user_role": "superadmin",
+      "company_code": "",
+      "action": "login",
+      "entity_type": "auth",
+      "entity_id": "Superadmin",
+      "details": "User logged in."
+    },
+    {
+      "occurred_at": "2026-06-07 16:00:54",
+      "username": "Superadmin",
+      "user_role": "superadmin",
+      "company_code": "",
+      "action": "login",
+      "entity_type": "auth",
+      "entity_id": "Superadmin",
+      "details": "User logged in."
+    },
+    {
+      "occurred_at": "2026-06-07 16:01:21",
+      "username": "Superadmin",
+      "user_role": "superadmin",
+      "company_code": "",
+      "action": "auto_configure_shared_config_folder",
+      "entity_type": "config",
+      "entity_id": "G:\\My Drive\\OrderConsolidator-Sync",
+      "details": "Shared config folder auto-configured at G:\\My Drive\\OrderConsolidator-Sync."
+    }
+  ],
+  "generated_by": "Superadmin"
 }
