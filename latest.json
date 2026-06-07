@@ -1,17 +1,15 @@
 {
-  "app_version": "0.6.7",
-  "release_date": "2026-06-07",
+  "version": "0.6.7",
+  "release_date": "2026-06-08",
   "release_notes": [
-    "Added Auto Configure for Google Drive Desktop shared config setup.",
-    "Automatically creates OrderConsolidator-Sync and saves the shared config path.",
-    "Added simple Shared Config Status for Ready, Not Configured, Folder Missing, and Read/Write Failed."
+    "Auto Configure can find Google Drive Desktop and create OrderConsolidator-Sync automatically.",
+    "Shared Config Status now shows Ready, Not Configured, Folder Missing, or Read/Write Failed.",
+    "SuperAdmin can still use Browse Folder when Google Drive Desktop is not found.",
+    "Shared config files are stored inside OrderConsolidator-Sync."
   ],
-  "app_download_url": "https://github.com/trycoxyl/warehouse-order-consolidator-releases/releases/download/v0.6.7/OrderConsolidator-v0.6.7.zip",
-  "app_sha256": "7913c0ff62f78b2f1cabf27c768a4347ccbcf7fd0a6199514fa796482a586338",
-  "app_download_size": 114313996,
+  "download_url": "https://github.com/trycoxyl/warehouse-order-consolidator-releases/releases/download/v0.6.7/OrderConsolidator-v0.6.7.zip",
+  "sha256": "eac4ef8cb16c6a46244ae2af96e6b836770a12e82582966ca61b2c34e388690b",
+  "download_size": 114363863,
   "mandatory": false,
-  "minimum_supported_version": "0.6.0",
-  "config_version": "2026.06.07.202606",
-  "config_url": "https://raw.githubusercontent.com/trycoxyl/warehouse-order-consolidator-releases/main/global_config.json",
-  "config_sha256": "382b49d593866b377b1a2de8aa93af9777589525048975c109c6dce7d7f5598e"
+  "minimum_supported_version": "0.5.0"
 }
