@@ -5,11 +5,12 @@
     "Manual one-click updater from Settings.",
     "Clear Update Diagnostics for URL, GitHub, JSON, download, checksum, and updater helper issues.",
     "Visible Current Update URL and Test Update Connection in Settings.",
+    "Packaged updater handoff now carries the required runtime files.",
     "Installs through a separate updater helper without touching the selected Data Folder."
   ],
   "download_url": "https://github.com/trycoxyl/warehouse-order-consolidator-releases/releases/download/v0.6.1/OrderConsolidator-v0.6.1.zip",
-  "sha256": "1a94e41aeca5f9339b3e82c96e96bcf50a92aa7fda129113266e352aa09a596d",
-  "download_size": 114235645,
+  "sha256": "abe2b60f835901bd23591d794fe6729c1d19c27f1b22e3728effc2537711668a",
+  "download_size": 114236635,
   "mandatory": false,
   "minimum_supported_version": "0.5.0"
 }
