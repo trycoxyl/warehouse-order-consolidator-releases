@@ -12,6 +12,13 @@
   "download_url": "https://github.com/trycoxyl/warehouse-order-consolidator-releases/releases/download/v0.6.2/OrderConsolidator-v0.6.2.zip",
   "sha256": "1214e2b7d069cdd635195486995afd19004cc87150e55fc1727ad7ca5820fef6",
   "download_size": 114275461,
+  "app_version": "0.6.2",
+  "app_download_url": "https://github.com/trycoxyl/warehouse-order-consolidator-releases/releases/download/v0.6.2/OrderConsolidator-v0.6.2.zip",
+  "app_sha256": "1214e2b7d069cdd635195486995afd19004cc87150e55fc1727ad7ca5820fef6",
+  "app_download_size": 114275461,
   "mandatory": false,
-  "minimum_supported_version": "0.5.0"
+  "minimum_supported_version": "0.5.0",
+  "config_version": "2026.06.07.202606",
+  "config_url": "https://raw.githubusercontent.com/trycoxyl/warehouse-order-consolidator-releases/main/global_config.json",
+  "config_sha256": "382b49d593866b377b1a2de8aa93af9777589525048975c109c6dce7d7f5598e"
 }

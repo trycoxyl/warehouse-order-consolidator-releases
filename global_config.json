@@ -1,0 +1,103 @@
+{
+  "config_version": "2026.06.07.202606",
+  "generated_at": "2026-06-07T20:26:06",
+  "companies": [],
+  "roles": [
+    {
+      "role": "admin",
+      "description": "Local administration and daily operations.",
+      "active": true
+    },
+    {
+      "role": "superadmin",
+      "description": "Full local administration, config publishing, and daily operations.",
+      "active": true
+    },
+    {
+      "role": "user",
+      "description": "Daily warehouse operations.",
+      "active": true
+    }
+  ],
+  "permissions": [
+    {
+      "role": "admin",
+      "permission": "daily_operations",
+      "enabled": true
+    },
+    {
+      "role": "admin",
+      "permission": "export_audit",
+      "enabled": true
+    },
+    {
+      "role": "admin",
+      "permission": "manage_companies",
+      "enabled": true
+    },
+    {
+      "role": "admin",
+      "permission": "manage_users",
+      "enabled": true
+    },
+    {
+      "role": "admin",
+      "permission": "view_audit",
+      "enabled": true
+    },
+    {
+      "role": "superadmin",
+      "permission": "daily_operations",
+      "enabled": true
+    },
+    {
+      "role": "superadmin",
+      "permission": "export_audit",
+      "enabled": true
+    },
+    {
+      "role": "superadmin",
+      "permission": "manage_companies",
+      "enabled": true
+    },
+    {
+      "role": "superadmin",
+      "permission": "manage_users",
+      "enabled": true
+    },
+    {
+      "role": "superadmin",
+      "permission": "publish_global_config",
+      "enabled": true
+    },
+    {
+      "role": "superadmin",
+      "permission": "view_audit",
+      "enabled": true
+    },
+    {
+      "role": "user",
+      "permission": "daily_operations",
+      "enabled": true
+    }
+  ],
+  "users": [
+    {
+      "username": "Admin",
+      "display_name": "Admin",
+      "role": "admin",
+      "active": true,
+      "password_hash": "5e796db2e3c0ea3270a5529f639c7e250307d8189c57104d3ce340db3e929852",
+      "password_salt": "93a9f53e6f4e30a91c1906f5bbf2cb0b"
+    },
+    {
+      "username": "TRO",
+      "display_name": "System Tester",
+      "role": "user",
+      "active": true,
+      "password_hash": "b98b5fad0aa7f05e4a2e20ab4a919c72dafd93db68490b39de0f47d5f1f5e7fd",
+      "password_salt": "1a5266ef95d3ac2a704e6cafdbc35b72"
+    }
+  ],
+  "user_company_assignments": []
+}
