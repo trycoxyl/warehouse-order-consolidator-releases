@@ -1,21 +1,16 @@
 {
-  "version": "0.6.4",
+  "app_version": "0.6.5",
   "release_date": "2026-06-07",
   "release_notes": [
-    "Global Config Sync for shared users, companies, roles, permissions, and user-company assignment.",
-    "Startup and manual Sync Global Config merge access data before login without replacing local operational data.",
-    "Admin-only Publish Global Config exports access-only global_config.json.",
-    "App Update remains a full ZIP release for code/features and preserves the selected Data Folder."
+    "Companies are visible only to superadmin.",
+    "Company admins now see only their company users and audit trail.",
+    "Publish Global Config now updates the public GitHub config files directly."
   ],
-  "download_url": "https://github.com/trycoxyl/warehouse-order-consolidator-releases/releases/download/v0.6.4/OrderConsolidator-v0.6.4.zip",
-  "sha256": "74b85feabb2cac9ddb540ff6d5a195e0ab4fc030c8a55278c375cbb2e274a7d3",
-  "download_size": 114269599,
-  "app_version": "0.6.4",
-  "app_download_url": "https://github.com/trycoxyl/warehouse-order-consolidator-releases/releases/download/v0.6.4/OrderConsolidator-v0.6.4.zip",
-  "app_sha256": "74b85feabb2cac9ddb540ff6d5a195e0ab4fc030c8a55278c375cbb2e274a7d3",
-  "app_download_size": 114269599,
+  "app_download_url": "https://github.com/trycoxyl/warehouse-order-consolidator-releases/releases/download/v0.6.5/OrderConsolidator-v0.6.5.zip",
+  "app_sha256": "c6616df3f724f388f467dd0b94b4587d656decd3cba1ac81005aab08b39c5b56",
+  "app_download_size": 114287260,
   "mandatory": false,
-  "minimum_supported_version": "0.5.0",
+  "minimum_supported_version": "0.6.0",
   "config_version": "2026.06.07.202606",
   "config_url": "https://raw.githubusercontent.com/trycoxyl/warehouse-order-consolidator-releases/main/global_config.json",
   "config_sha256": "382b49d593866b377b1a2de8aa93af9777589525048975c109c6dce7d7f5598e"
