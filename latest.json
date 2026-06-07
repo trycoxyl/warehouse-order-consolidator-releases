@@ -1,14 +1,14 @@
 {
-  "app_version": "0.6.5",
+  "app_version": "0.6.6",
   "release_date": "2026-06-07",
   "release_notes": [
-    "Companies are visible only to superadmin.",
-    "Company admins now see only their company users and audit trail.",
-    "Publish Global Config now updates the public GitHub config files directly."
+    "Added hidden shared folder config sync for user/company access updates.",
+    "Added Sync Latest Config and Publish Config without requiring a GitHub token.",
+    "Added SuperAdmin shared config setup and read/write diagnostics."
   ],
-  "app_download_url": "https://github.com/trycoxyl/warehouse-order-consolidator-releases/releases/download/v0.6.5/OrderConsolidator-v0.6.5.zip",
-  "app_sha256": "c6616df3f724f388f467dd0b94b4587d656decd3cba1ac81005aab08b39c5b56",
-  "app_download_size": 114287260,
+  "app_download_url": "https://github.com/trycoxyl/warehouse-order-consolidator-releases/releases/download/v0.6.6/OrderConsolidator-v0.6.6.zip",
+  "app_sha256": "2a5e03fc36cf15661c8cc639793621de284ea04bcf00e216a95a9d870836e48f",
+  "app_download_size": 114306558,
   "mandatory": false,
   "minimum_supported_version": "0.6.0",
   "config_version": "2026.06.07.202606",
